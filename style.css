@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+}
+header{
+    min-height: 100px;
+    background-color: rgb(51, 58, 64);
+}
+footer{
+    height: 80px;
+    width: 2000px;
+    background-color: rgb(29, 57, 71) ;
+    position: absolute;
+    top: 1690px;
+    right: -470px;
+   
+}
+.logo{
+    height: 20px;
+}
+.codo{
+    height: 90px;
+    position: absolute;
+    left: 160px;
+}
+h1{
+    position: absolute;
+    left: 300px;
+    margin: 0.5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+.bar{
+    float: right;
+    margin: 1rem;
+
+}
+.color_normal{
+    text-decoration: none;
+    color: rgb(154, 158, 161);
+    margin-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.color_blanco{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.color_verde{
+    color: rgb(40, 169, 69);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5rem;
+}
+.parte_de_arriba{
+    width: 450px;
+    float: right;
+    text-align: right;
+    margin-right: 6rem;
+    position: relative;
+    top: 200px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+.derecha{
+    position: relative;
+    bottom: 10px;
+}
+.fondo{
+    background-image: url(./imagenes/ba1.jpg);
+    background-color: rgb(20, 20, 20);
+    background-blend-mode: soft-light;
+    height: 700px;
+}
+.botones{
+    float: right;
+    margin: 1rem;
+    position: relative;
+    bottom: 290px;
+    right: 80px;
+}
+.boton_verde{
+    background-color: rgb(39, 168, 68) ;
+    padding: 0.6rem;
+    border-radius: 5px;
+    color: white;
+}
+.boton_transparente{
+    background: none;
+    color: white;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 0.5rem;
+    margin-right: 0.7rem;
+}
+.centro_orador{
+    position: absolute;
+    left: 930px;
+    height: 20px;
+}
+.orador_1{
+    font-size: 18px;
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.orador_2{
+    font-size: 35px;
+    margin-top: 0.3rem ;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    right: 15px;
+    
+}
+.portada_1{
+    width: 228px;
+    border: solid 1px;
+    border-color: lightgray;
+    margin-top: 10rem;
+    position: relative;
+    display: inline-block;
+
+
+}
+.hola2{
+    height: 228px;
+    width: 228px;
+}
+.js{
+    margin-top: 1.5rem;
+}
+.sj{
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+.portada_2{
+    width: 228px;
+    border: solid 1px;
+    border-color: lightgray;
+    display: inline-block;
+}
+.bill{
+    width: 228px;
+}
+.portada_3{
+    width: 228px;
+    height: 515px;
+    border: solid 1px;
+    border-color: lightgray;
+    display: inline-block;
+}
+.mina{
+    height: 228px;
+    width: 228px;
+}
+.sape{
+    position: relative;
+    right: 300px;
+    bottom: 150px;
+}
+.sapecard{
+    display: inline-block;
+    position: relative;
+    right: 10px;
+}
+.hola7{
+    display: inline-block;
+}
+.timpa{
+    width: 228px;
+    position: relative;
+    left: 185px;
+    bottom: 667px;
+}
+.js{
+    background-color: rgb(254, 193, 7);
+    color: black;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.hola{
+    margin: 1rem
+}
+.sapeland{
+    margin: 1.4rem;
+}
+.hola4{
+    margin-top: 1.2rem;
+
+}
+.hola5{
+    margin-top: 1rem;
+}
+.negocios{
+    background-color: rgb(108, 118, 127);
+    color: white;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.startup{
+    background-color: rgb(219, 52, 69);
+    color: white;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.react{
+    background-color: rgb(21, 163, 185);
+    color: white;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.fondo_4{
+    height: 500px;
+    position: relative;
+    bottom: 500px;
+    right: 800px;
+}
+.centro_orador{
+    position: absolute;
+    left: 920px;
+    height: 300px;
+    
+}
+.corde{
+    height: 600px;
+    width: 1100px;
+    position: absolute;
+    margin-top: 4rem;
+    right: 350px;
+    background-image: url(./imagenes/holaaa.png);
+    background-color: rgb(34, 31, 31);
+    background-blend-mode: soft-light;
+}
+.iniciales{
+    height: 600px;
+    width: 940px;
+    margin-top: 4rem;
+    background-color: rgb(53, 58, 64);
+    position: absolute;
+    left: -143px;
+}
+.hola6{
+    position: relative;
+    width: 200px;
+    top: 30px;
+    left: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+.musica{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    top: 80px;
+    margin-left: 1.6rem;
+}
+.amante{
+    position: absolute;
+    top: 180px;
+    margin-left: 1.6rem;
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.dame{
+    margin-top: 2rem;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+.disfraces{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    position: relative;
+    right:  20px;
+}
+.gil{
+    position: relative;
+    top: 70px;
+    right: 200px;
+    border: none;
+}
+.hablar{
+    padding: 0;
+    margin-top: 0.7rem;
+    width: 500px;
+    height: 100px;
+    padding: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    border-color: lightgray;
+
+}
+.recuerdo{
+    margin-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.enviar{
+    margin-top: 0.6rem;
+    width: 513px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(150, 201, 62);
+    color: white;
+    padding: 0.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.titi{
+    width: 236px;
+    padding: 0.2rem;
+   
+}
+.toti{
+    width: 250px;
+    padding: 0.2rem;
+
+    
+}
+.estilo{
+    width: 580px;
+    position: absolute;
+    top: 1400px;
+    font-family: 'Roboto', sans-serif;
+    right: 120px;
+    font-size: 14px;
+}
+.saltarias{
+        text-align: center;
+        margin-top: 2rem;
+
+        
+
+}
+.saltarias> a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.seba1{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+    
+}
+.seba2{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+}
+.seba3{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+}
+.seba4{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+}
+.seba5{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+}
+.seba6{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+}
+.seba7{
+    margin-right: 2rem;
+    position: relative;
+    left: 30px;
+}
+
+@media (max-width:480px){
+
+  
+}
